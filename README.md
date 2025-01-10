@@ -445,7 +445,7 @@ Download the pre-built Docker images: [32GB](http://mirrors.cn-central-221.ovaij
 
 To use nf4 QLoRA quantization based on bitsandbytes in Ascend NPU, please follow these 3 steps:
 
-1. Manually compile bnb: Refer to [the installation documentation](https://huggingface.co/docs/bitsandbytes/installation?backend=Ascend+NPU&platform=Ascend+NPU) for the NPU version of bitsandbytes or follow the commands below to complete the compilation and installation of bnb. The compilation requires a cmake version of at least 3.22.1 and a g++ version of at least 12.x.
+1. Manually compile bnb: Refer to [the installation documentation](https://huggingface.co/docs/bitsandbytes/installation?backend=Ascend+NPU&platform=Ascend+NPU#multi-backend-pip) for the NPU version of bitsandbytes or follow the commands below to complete the compilation and installation of bnb. The compilation requires a cmake version of at least 3.22.1 and a g++ version of at least 12.x.
 ```bash
 # Install bitsandbytes from source
 # Clone bitsandbytes repo, Ascend NPU backend is currently enabled on multi-backend-refactor branch
