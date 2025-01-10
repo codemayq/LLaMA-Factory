@@ -465,7 +465,7 @@ pip install -e .
 ```
 2. 安装使用transformers的main分支版本
 ```
-git clone -b https://github.com/huggingface/transformers.git
+git clone -b main https://github.com/huggingface/transformers.git
 cd transformers
 pip install .
 ```
